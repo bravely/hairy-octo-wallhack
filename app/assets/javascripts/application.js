@@ -13,4 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require handlebars
+//= require ember
+//= require ember-data
+//= require_self
+//= require hairy_octo_wallhack
+
+// for more details see: http://emberjs.com/guides/application/
+HairyOctoWallhack = Ember.Application.create();
+
 //= require_tree .

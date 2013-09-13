@@ -10,11 +10,14 @@ gem 'pacecar'
 gem 'rails-console-tweaks'
 gem 'pg'
 gem 'pry-rails'
+gem 'ember-rails'
+gem 'ember-source'
 
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'rubocop'
+  gem 'sqlite3'
 end
 
 group :test do
@@ -25,7 +28,7 @@ group :test do
   gem 'factory_girl_rspec'
 end
 
-gem :ct do
+group :ct do
   gem 'guard-rspec'
   gem 'guard-rubocop'
 end
